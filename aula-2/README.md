@@ -1,7 +1,7 @@
 # Desafio da aula 2
-## _Conhecendo a <input /> tag._
+## _Conhecendo a `<input />` tag._
 
-Ainda não estudamos sobre a tag ***<input>***, mas quero que vocês usem para resolver nosso desafio.
+Ainda não estudamos sobre a tag `<input>`, mas quero que vocês usem para resolver nosso desafio.
 ## Descrição do desafio
 
 > O nosso desafio consiste em usarmos a tag input. 
