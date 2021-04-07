@@ -1,3 +1,3 @@
 function mostrarAlerta() {
-    alert('Cagasse, viado!')  
+    alert('Hello World!')  
 }
