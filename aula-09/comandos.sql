@@ -18,6 +18,7 @@ select * from produtos;
 INSERT INTO usuarios (id, email, nome, senha) VALUES (3, 'nena@gmail.com', 'Nena', 'mudar123');
 
 UPDATE usuarios SET email = 'danielcdesouza@gmail.com' WHERE id = 1;
+alter table usuarios add column telefone INTEGER;
 alter table usuarios drop column telefone;
 
 delete from usuarios where id = 1;
