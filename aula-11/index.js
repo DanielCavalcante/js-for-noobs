@@ -1,17 +1,13 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-
 const app = express();
 
-const { User } = require('./app/models');
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+const routes = require('./app/routes');
 
-app.get('/usuarios', (req, res) => {
-  const users = User.findAll({});
-  res.json(users);
-});
+app.use('/api', routes);
 
 // app.post('/register', async (req, res) => {
 //   const user = await User.create(req.body);
